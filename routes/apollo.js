@@ -71,7 +71,6 @@ router.post('/send-emails', async (req, res) => {
         last_name: lastName,
         linkedin_url: linkedInUrl,
         reveal_personal_emails: true,
-        reveal_phone_number: true
       };
 
       const apolloHeaders = {
