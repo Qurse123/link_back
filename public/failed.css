@@ -1,0 +1,127 @@
+:root {
+    --failed-color: #F44336;
+    --text-color: #333333;
+    --background-color: #f4f4f4;
+    --card-background: #ffffff;
+    --button-color: #2196F3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.failed-card {
+    background-color: var(--card-background);
+    border-radius: 8px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.failed-icon {
+    width: 60px;
+    height: 60px;
+    background-color: var(--failed-color);
+    color: white;
+    font-size: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+
+h1 {
+    color: var(--failed-color);
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.error-code-container p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.error-code-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+#error-code {
+    font-family: monospace;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+#copy-error-code {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+#copy-error-code:hover {
+    color: var(--failed-color);
+}
+
+#copy-error-code svg {
+    width: 18px;
+    height: 18px;
+}
+
+.try-again-btn {
+    background-color: var(--button-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.try-again-btn:hover {
+    background-color: #1976D2;
+}
+
+.contact-support {
+    color: var(--button-color);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.contact-support:hover {
+    text-decoration: underline;
+}

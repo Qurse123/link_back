@@ -1,0 +1,50 @@
+.
+├── config
+│   └── database.js
+├── database.sqlite
+├── middleware
+│   ├── auth.js
+│   └── stripeConfig.js
+├── models
+│   ├── Subscription.js
+│   ├── User.js
+│   ├── behaviorLog.js
+│   ├── index.js
+│   └── token.js
+├── output.txt
+├── package-lock.json
+├── package.json
+├── public
+│   ├── css
+│   │   ├── bootstrap.min.css
+│   │   └── style.css
+│   ├── dashboard.html
+│   ├── fonts
+│   │   ├── circular-std-font.otf
+│   │   └── circular-std-medium.ttf
+│   ├── images
+│   │   ├── bootstrap-profile-card-image.jpg
+│   │   ├── favicon.png
+│   │   ├── hero-img.png
+│   │   ├── logo.png
+│   │   ├── logo.svg
+│   │   ├── me.jpg
+│   │   ├── nav-particles.svg
+│   │   ├── square-headshot-1.png
+│   │   ├── square-headshot-2.png
+│   │   └── weather.svg
+│   ├── index.html
+│   ├── js
+│   │   ├── bootstrap.bundle.min.js
+│   │   ├── jquery.min.js
+│   │   └── script.js
+│   ├── signin.html
+│   └── signup.html
+├── received_data.json
+├── routes
+│   ├── apollo.js
+│   ├── auth.js
+│   └── subscription.js
+└── server.js
+
+10 directories, 38 files
